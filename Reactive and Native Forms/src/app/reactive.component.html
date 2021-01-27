@@ -1,0 +1,35 @@
+<h2><b>Reactive Form</b></h2>
+<br>
+<form name = "reactiveForm">
+<label><b>Name</b></label>
+<br><br>
+<input name = "name" type = "text" required>
+<br><br>
+<span *ngIf = "reactiveForm.name.$error.required ||  reactiveForm.name.pristine">Name is required</span>
+<br><br>
+<label><b>Alter Ego</b></label>
+<br><br>
+<input name = "alias" type = "text" required>
+<br><br>
+<span *ngIf = "reactiveForm.alias.$error.required ||  reactiveForm.alias.pristine">Alter Ego is required</span>
+<br><br>
+<label><b>Hero Email</b></label>
+<br><br>
+<input name = "email" type = "email" required>
+<br><br>
+<span *ngIf = "reactiveForm.email.$error.required ||  reactiveForm.email.pristine">Hero Email is required</span>
+<span *ngIf = "reactiveForm.email.$error.email">Hero Email is invalid</span>
+<br><br>
+<label><b>Hero Power</b></label>
+<br><br>
+<input name = "powers" list = "powers" required>
+<datalist id = "powers">
+<option value="Turbulent Breeze">Turbulent Breeze</option>
+<option value="Scorching Heatwave">Scorching Heatwave</option>
+<option value="Freezeing Bow">Freezeing Bow</option>
+</datalist>
+<br><br>
+<span *ngIf = "reactiveForm.powers.$error.required ||  reactiveForm.powers.pristine">Hero Power is required</span>
+<br><br>
+<input type = "submit" class = "button">
+</form>

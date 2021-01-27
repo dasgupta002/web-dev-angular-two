@@ -1,0 +1,25 @@
+h2 {
+   font-family : Lucida Handwriting, Cursive;
+   padding-left : 20px;
+}
+form {
+   padding-left : 30px;
+   font-family : Monaco, Monospace;
+}
+input, datalist {
+   height : 20px;
+   width : 400px;
+   border-radius : 5px;
+   border-left : 8px solid mediumseagreen;
+}
+.button {
+   height : 60px;
+   width : 100px;
+   font-size : 15px;
+   background-color : dodgerblue;
+   border-left : none;
+   padding-left : 20px;
+   padding-right : 20px;
+   padding-top : 20px;
+   padding-bottom : 20px;
+}

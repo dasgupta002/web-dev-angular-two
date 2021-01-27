@@ -1,0 +1,74 @@
+@import 'https://fonts.googleapis.com/css?family=Audiowide';
+
+p {
+  font-family : Copperplate, Fantasy;
+  margin-top : 70px;
+  margin-left : 40px;
+  background-color : white;
+  font-size : 20px;
+  padding-top : 15px;
+  padding-left : 20px;
+}
+nav { 
+  font-family : Lucida Handwriting, Cursive;
+  padding-top : 20px;
+  padding-left : 10px;
+  padding-right : 20px;
+  padding-bottom : 20px;
+  margin-left : 100px;
+}
+hr {
+  width : 80%;
+  margin-left : 100px;
+}
+a {
+  padding-bottom : 22px;
+  margin-left : -10px;  
+  border-bottom : 5px solid orange; 
+}
+.column {
+  float: left;
+  width: 40%;
+  padding-top : 40px;
+  line-height : 25px;
+  padding-left : 20px;
+  font-family : Audiowide, sans-serif;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+  max-width : 400px;
+  margin-left : 140px;
+}
+iframe {
+  margin-left : 155px;
+  margin-top : 50px;
+  width : 1000px;
+  height : 500px;
+  margin-bottom : 30px;
+}
+h3 {
+  padding-left : 100px;
+  padding-top : 20px;
+  font-family : Brush Script MT, Cursive;
+}
+table {
+  margin-left : 150px;
+  margin-top : 40px;
+  margin-bottom : 50px;
+  font-family : Brush Script MT, Cursive;
+}
+td {
+  padding-right : 400px;
+  padding-bottom : 15px;
+  padding-left : 20px;
+}
+tr:nth-child(odd){ 
+  background-color: #f2f2f2;
+}
+tr:hover { 
+  background-color: #ddd;
+}

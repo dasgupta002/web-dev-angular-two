@@ -1,0 +1,28 @@
+h2 {
+   font-family : Brush Script MT, Cursive;
+   padding-left : 20px;
+}
+form {
+   margin-left : 20px;	
+   padding-left : 30px;
+   font-family : Lucida Console, Monospace;
+}
+input {
+   height : 20px;
+   width : 400px;
+   border-radius : 7px;
+}
+.button {
+   height : 30px;
+   width : 100px;
+   font-size : 15px;
+   background-color : slateblue;
+   padding-left : 20px;
+   padding-right : 20px;
+}
+form.ng-pristine {
+   border-left : 8px solid red;
+}
+form.ng-dirty {
+   border-left : 8px solid orange;
+}
